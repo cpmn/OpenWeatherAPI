@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(250, 250, 250);
+  background-image: url(../img/cloud.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #005994;
+}
+
+.title {
+  color:rgb(252, 246, 246);
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;    
+}
+
+.search-bar {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 85%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid rgb(240, 233, 233);;
+  background: rgb(231, 230, 230);
+  color: rgb(5, 5, 5);
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.search-bar button {
+  width: auto;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, #090a0a 30%, #108df3 90%);
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-weather {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #ffffff 30%, #ffffff 90%);
+  background-size: cover;
+  box-shadow: 3px 3px 3px 3px rgb(17, 16, 16);
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.weather h1 {
+  color:rgb(43, 41, 41);
+  font-weight: 800;
+  font-size: 70px;  
+}
+
